@@ -34,10 +34,13 @@ st.set_page_config(
 
 local = False
 
-vectara_customer_id=st.secrets["vectara_customer_id"]
-vectara_corpus_id=st.secrets["vectara_corpus_id"]
-vectara_api_key=st.secrets["vectara_api_key"]
+#vectara_customer_id=st.secrets["vectara_customer_id"]
+#vectara_corpus_id=st.secrets["vectara_corpus_id"]
+#vectara_api_key=st.secrets["vectara_api_key"]
 
+vectara_customer_id='zqt_mEQkp_O_5GsApAIzErYwqSIxdjVNVKiIJXggbg'
+vectara_corpus_id='4'
+vectara_api_key='2554602663'
 
 @st.cache_resource(ttl="1h")
 def configure_retriever():
